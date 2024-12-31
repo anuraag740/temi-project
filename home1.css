@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial,sans-serif;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding:10px;
+   border-radius: 20px;
+    border: solid black;
+    background-color: navy;
+   
+    
+}
+.logo img{
+    
+    width: 100px;
+}
+.link {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap:20px;
+}
+  .link a{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap:20px;
+    color: white;
+  } 
+  @media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 10px;
+    }
+}
+main{
+    background-image:url('https://drivetonortheast.com/uploads/blog/images/blog-4025-6597.jpg') ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.text {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    width:100%;
+    color: white;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
